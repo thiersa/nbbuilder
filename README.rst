@@ -15,16 +15,13 @@ Requirements
 Installing
 ==========
 
-Using pip
----------
-
-    pip install sphinxcontrib-nbbuilder
-
 Manual
 ------
 
-    hg clone http://bitbucket.org/birkenfeld/sphinx-contrib
-    cd sphinx-contrib/nbbuilder
+.. code::
+
+    git clone https://github.com/thiersa/nbbuilder
+    cd nbbuilder
     python setup.py install
 
 If you want to take a look and have a try, you can put the IPynb builder in
